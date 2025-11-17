@@ -14,7 +14,7 @@ import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import BlogCardOne from '@/components/sections/blog/BlogCardOne';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { Heart, ChefHat, Crown, Star, Users, Award, MessageCircle, BookOpen, Calendar } from "lucide-react";
+import { Heart, ChefHat, Crown, Star, Users, Award, MessageCircle, BookOpen, Calendar, Instagram, Facebook, Twitter } from "lucide-react";
 
 export default function Home() {
   return (
@@ -435,17 +435,17 @@ export default function Home() {
           ]}
           socialLinks={[
             {
-              icon: "Instagram",
+              icon: Instagram,
               href: "https://instagram.com/eestikook",
               ariaLabel: "Follow us on Instagram"
             },
             {
-              icon: "Facebook",
+              icon: Facebook,
               href: "https://facebook.com/eestikook",
               ariaLabel: "Like us on Facebook"
             },
             {
-              icon: "Twitter",
+              icon: Twitter,
               href: "https://twitter.com/eestikook",
               ariaLabel: "Follow us on Twitter"
             }
